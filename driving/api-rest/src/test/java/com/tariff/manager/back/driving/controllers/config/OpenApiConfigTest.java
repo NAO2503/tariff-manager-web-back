@@ -35,11 +35,11 @@ class OpenApiConfigTest {
 
         // Verify Info configuration
         assertNotNull(result.getInfo(), "API Info should not be null");
-        assertEquals("Price Manager API", result.getInfo().getTitle(),
+        assertEquals("Tariff Manager API", result.getInfo().getTitle(),
                 "API title should match expected value");
         assertEquals("1.0", result.getInfo().getVersion(),
                 "API version should match expected value");
-        assertEquals("Price Management System API Documentation",
+        assertEquals("Tariff Management System API Documentation",
                 result.getInfo().getDescription(),
                 "API description should match expected value");
 
