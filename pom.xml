@@ -73,6 +73,11 @@
         <dependencies>
             <dependency>
                 <groupId>com.tariff.manager.back</groupId>
+                <artifactId>tariff-manager-web-back-api-rest</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.tariff.manager.back</groupId>
                 <artifactId>tariff-manager-web-back-application</artifactId>
                 <version>${project.version}</version>
             </dependency>
@@ -88,6 +93,7 @@
         <!-- Core application-->
         <module>application</module>
         <!-- Adapter implementations-->
+        <module>driving/api-rest</module>
         <module>driven/repository-sql</module>
         <!-- Runtime -->
         <module>boot</module>

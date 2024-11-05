@@ -29,3 +29,19 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    config-url: /v3/api-docs/swagger-config
+    url: /v3/api-docs
+  packages-to-scan: com.tariff.manager.back.driving.controllers
+  paths-to-match: /api/**
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
