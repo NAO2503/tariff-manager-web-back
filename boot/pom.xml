@@ -18,11 +18,11 @@
         <!--<dependency>
             <groupId>com.tariff.manager.back</groupId>
             <artifactId>tariff-manager-web-back-api-rest</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.tariff.manager.back</groupId>
             <artifactId>tariff-manager-web-back-repository-sql</artifactId>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
